@@ -1,0 +1,31 @@
+{
+  "name": "barcode-scanner",
+  "version": "1.0.0",
+  "description": "条形码扫码功能模块",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npm run dev:h5",
+    "dev:h5": "uni-app-x dev --platform h5",
+    "dev:app": "uni-app-x dev --platform app",
+    "build": "npm run build:h5",
+    "build:h5": "uni-app-x build --platform h5",
+    "build:app": "uni-app-x build --platform app"
+  },
+  "keywords": [
+    "barcode",
+    "scanner", 
+    "uni-app",
+    "uni-app-x"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@dcloudio/uni-app": "^3.0.0",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-app-x": "^3.0.0",
+    "@dcloudio/vite-plugin-uni": "^3.0.0",
+    "vite": "^4.0.0"
+  }
+}
