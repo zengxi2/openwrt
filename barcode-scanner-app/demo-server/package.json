@@ -1,0 +1,19 @@
+{
+  "name": "barcode-demo-server",
+  "version": "1.0.0",
+  "description": "条形码扫描器演示服务器",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5"
+  },
+  "keywords": [
+    "barcode",
+    "demo", 
+    "server"
+  ],
+  "license": "MIT"
+}
